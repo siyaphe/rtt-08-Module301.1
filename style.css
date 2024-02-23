@@ -1,0 +1,82 @@
+body{
+    background-color: gray;
+}
+.topContainer{
+    border: solid red;
+    padding: 1em;
+    /* height: 42vh; */
+    margin:1em;
+    display: flex; 
+}
+
+.midContainer{
+    border: solid blue;
+    height:42vh;
+    margin:1em;
+    display: flex;
+    flex-wrap: wrap
+}
+.lowContainer{
+    border: solid green;
+    height: 42vh;  
+    margin:1em;
+}
+.phaseContainer {
+    border: solid blue;
+    border-width: .2px;
+}
+.phase {
+    display: flex;
+    padding: 1em;
+}
+.phase.hover{
+    background-color: lightblue;
+    border: solid blue;
+    transition: .3s;
+    display: flex;
+    padding: 1em;
+}
+.pTitle{
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.description {
+    padding:12px;
+    width: 50%;
+    text-align: right;
+}
+.topTitle{
+    text-align: center;
+    margin: 1em;
+    margin-top: 20%;
+}
+
+.attnBtn{
+    border: solid green;
+    border-width: .2px;
+    height: 20px;
+    margin: .5em;
+    text-align: center;
+    width: 15%;
+    border-radius: 22px;
+    font-size: 18px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.attnBtn:hover{
+    border: solid blue;
+    border-width: .2px;
+    height: 20px;
+    margin: .5em;
+    text-align: center;
+    width: 15%;
+    border-radius: 22px;
+    font-size: 18px;
+    background-color: green;
+    color: white;
+    
+}
